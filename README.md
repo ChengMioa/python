@@ -4,3 +4,4 @@
 1.  nhomework   是书本上的习题<br>
 2.  sample_code  是书本上的例题<br>
 3.  import this  Python 之禅 在import_this已经翻译
+4.  python心得.md 是自学过程中总结的笔记
