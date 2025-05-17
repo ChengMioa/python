@@ -19,7 +19,7 @@ motorcycle.insert(1,'ducati')
 print	(f'插入 {motorcycle}')
 print   ('\n')
 
-print	("删除 del [列表名] [index]                           ---删除节点 [index]")
+print	("删除 del [列表名] [index]                           ---删除节点 [index],根据元素位置删除")
 print	( f'原本 {motorcycle}' )
 del motorcycle[0]
 print	(f'删除 {motorcycle}       ---删除第一个节点del [列表名][0]')
@@ -32,3 +32,12 @@ a=motorcycle.pop()
 print	(f'弹出 {motorcycle}                 ---弹出后的列表')
 print	(f'      {a}                                        ---弹出的元素')
 print   ('\n')
+
+print	("  [列表名].remove('[value]')                                ---根据值删除，列表元素")
+print	( f'原本 {motorcycle}' )
+b = 'yamaha'
+motorcycle.remove(b)
+print	(f'删除 {motorcycle}                 ---弹出后的列表')
+print	(f'      {b}                                        ---弹出的元素')
+print   ('\n')
+
