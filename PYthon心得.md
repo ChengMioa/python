@@ -144,4 +144,57 @@ name_list.remove(a)
 
 ### 6. 列表的排序
 
-方法：`[列表变量名].remove('[value]')`
+- 顺序
+
+	方法：`[列表变量名].sort()`
+	```
+	cars = ['bmw','audi','toyota','subaru']
+	cars.sort()
+	print (cars)
+	```
+	>这是永久排序，根据字母，数字
+
+- 逆序
+
+	方法：`[列表变量名].sort(reverse=True)`
+	```
+	cars = ['bmw','audi','toyota','subaru']
+	cars.sort(reverse=True)
+	print (cars)
+	```
+
+- **临时**排序（支持逆序）
+
+	方法：`sorted([列表变量名])`
+	```
+	cars = ['bmw','audi','toyota','subaru']
+	print (sorted(cars))
+	```
+	>这是临时排序，不会改变原列表
+
+	```
+	cars = ['bmw','audi','toyota','subaru']
+	print (sorted(cars, reverse=True))
+	```
+	>这是临时逆序排序
+	>不会改变原列表
+- 反转列表
+
+	方法：`[列表变量名].reverse()`
+	```
+	cars = ['bmw','audi','toyota','subaru']
+	cars.reverse()
+	print (cars)
+	```
+	>这是**永久**反转列表
+	>
+	>**两次反转会恢复原列表**
+	>
+	>注意：不是排序
+- 计算列表长度
+	方法：`len([列表变量名])`
+	```
+	cars = ['bmw','audi','toyota','subaru']
+	print (len(cars))
+	```
+	>这是计算列表长度
