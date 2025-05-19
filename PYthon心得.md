@@ -187,7 +187,13 @@ name_list.remove(a)
 	print (cars)
 	```
 	>这是**永久**反转列表
-	>
+```
+cars = ['bmw','audi','toyota','subaru']
+cars.reverse()
+#第二次使用.reverse()方法，复原
+cars.reverse()
+print(cars)
+```
 	>**两次反转会恢复原列表**
 	>
 	>注意：不是排序
