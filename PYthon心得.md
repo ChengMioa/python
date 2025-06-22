@@ -135,12 +135,16 @@ print (a[0])
 name_list.remove('张三')
 ```
 >这里的是 删除列表值为张三 的元素
-
 ```
 a = '张三'
 name_list.remove(a) 
 ```
 >这里的值也可以是变量 
+
+清空列表可以用 .clear() 方法
+```	
+name_list.clear()
+```
 
 ### 6. 列表的排序
 
